@@ -14,7 +14,7 @@ body{
     font-size: 17px;
     font-weight: 900;
     text-transform: uppercase;
-    margin-left: 50px;
+    margin-left: 20px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -514,6 +514,7 @@ nav{
         margin: auto;
         margin-top: 30%;
     }
+    
     .caterings h2{
         color: #C0AFD3;
         font-weight: 900;
@@ -523,5 +524,11 @@ nav{
    .caro{
     text-align: center;
    }
+   .cookie-video video{
+    width: 100%;
+   }
+   
+
+
    
 }
