@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    box-shadow: 0 4px 23px black;
+}
+
+.navbar-nav li a{
+    color: #C0AFD3;
+    font-size: 17px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-left: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.carousel-inner .carousel-item {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.carousel-inner .carousel-item.active {
+    opacity: 1;
+}
+
+.carousel-item{
+    height: 700px;
+   
+}
+
+.section2{
+    margin-top: 10%;
+
+}
+
+.section2 img {
+    transition: transform 0.3s;   
+}
+
+.insta h3{
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.insta img{
+    width: 10%;
+}
+.caro{
+    text-align: end;
+}
+.insta .btn3{
+    background-color: #C0AFD3;
+    color: #ffffff;
+    border: 2px solid #C0AFD3;
+    border-radius: 0;
+    width: 15%;
+}
+
+
+.insta .btn3:hover{
+    background-color: white;
+    color: #C0AFD3;
+    border: 2px solid #C0AFD3;
+}
+
+.empty{
+    display: block;
+}
+
+.section2 img:hover {
+    transform: scale(1.1); 
+}
+
+.section3{
+    margin-top: 10%;
+    margin: 0;
+    padding: 0;
+}
+
+.section3 h1{
+    color: #C0AFD3;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+}
+
+
+.section3 p{
+    width: 80%;
+    font-size: 20px;
+    color: #C0AFD3;
+}
+
+.btn {
+    background-color: #C0AFD3;
+    color: #ffffff;
+    border: 2px solid #C0AFD3;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #C0AFD3;
+    border: 2px solid #C0AFD3;
+}
+
+.about-sect{
+    margin-top: 5%;
+}
+
+.sect3{
+    color: #C0AFD3;
+}
+
+.sect3 h1{
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+}
+
+.btn1 {
+    background-color: #C0AFD3;
+    color: #ffffff;
+    border: 2px solid #C0AFD3;
+    margin-left: 80%;
+}
+
+.btn1:hover{
+    background-color: white;
+    color: #C0AFD3;
+    border: 2px solid #C0AFD3;
+}
+
+.section4{
+    margin-top: 10%;
+    color: #C0AFD3;
+}
+
+.section4 h1{
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    font-size: 65px;
+    color: #C0AFD3;
+}
+
+.section4 h6{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section4 p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    width: 60%;
+    margin: auto;
+   
+}
+
+.cookie-bax{
+    background-image: url(./images/bg1.webp);
+    height: 200px;
+    background-size: cover;
+    margin-top: 5%;
+}
+.section6{
+    margin-top: 10%;
+}
+.section6 p{
+    font-weight: 400;
+    font-size: 25px;
+    color: #C0AFD3;
+}
+
+.section6 form{
+    width: 70%;
+    border: 3px solid #C0AFD3;
+}
+.section6 input{
+    padding: 2%;
+}
+.btn2{
+   border-radius: 0;
+}
+
+footer{
+    background-color: #C0AFD3;
+    color: #ffffff;
+    margin-top: 10%;
+    padding-bottom: 10%;
+}
+
+.icon i{
+    font-size: 30px;
+}
+
+footer h2{
+    font-weight: 900;
+}
+
+footer li{
+    list-style: none;
+    margin-right: 10%;
+    color: #ffffff;
+}
+
+.contact{
+    background-attachment: fixed;
+    background-image: url(../images/bg2.webp);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: contain;
+    z-index: 2;
+}
+
+.contact-footer{
+    margin-top: 0;
+}
+
+.contact h1{
+    font-size: 120px;
+    font-weight: 900;
+    
+}
+.faq h1{
+    color: #C0AFD3;
+    font-weight: 900;
+    font-size: 60px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    text-transform: uppercase;  
+    text-align: center;
+}
+nav{
+    z-index: 1;
+}
+
+.our-store h1{
+    color: #C0AFD3;
+    font-weight: 900;
+    font-size: 60px;
+    padding-top: 20%;
+    text-transform: uppercase;
+}
+.our-store p{
+    color: #C0AFD3;
+    font-size: 18px;
+    width: 75%;
+}
+
+.contact-det h1{
+    color: #C0AFD3;
+    font-weight: 900;
+    font-size: 40px;
+    padding-top: 10%;
+}
+.contact-det h2{
+    color: #C0AFD3;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contact-det a, li{
+    color: #C0AFD3;
+    font-size: 18px;
+    list-style: none;
+    
+}
+
+.accordion-item{
+    color: #C0AFD3;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.accordion-button{
+    color: #C0AFD3;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.about-cookie{
+    text-align: center;
+    color: #C0AFD3;
+}
+
+.about-cookie p{
+    width: 70%;
+    margin: auto;
+    font-weight: 600;
+}
+
+.about-cookie h1{
+    font-weight: 900;
+    padding-top: 5%;
+    font-size: 60px;
+}
+
+.caro-img img{
+    border: 10px solid #C0AFD3;
+}
+
+.caro-info h1{
+    font-weight: 900;
+    padding-top: 5%;
+    font-size: 60px;
+    color: #C0AFD3;
+}
+
+.caro-info p{
+    color: #C0AFD3;
+    font-size: 18px;
+    
+}
+.cookie-video{
+    margin-top: 5%;
+}
+
+.dropdown-menu{
+    width: 150%;
+
+}
+
+
+.card{
+    padding: 0;
+    border: 5px solid #C0AFD3;
+    margin-top: 10%;
+    width: 20rem;
+    transition: transform 0.3s ;
+    
+}
+
+.purchase-sect{
+    margin-top: 10%;
+}
+
+.purchase{
+    width: 15rem;
+    transition: transform 0.3s ;
+
+}
+
+.card:hover{
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+
+.purchase{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card-body{
+    padding: 0;
+}
+
+.card-title{
+    background-color: #C0AFD3;
+    text-align: center;
+    color: #ffffff;
+    padding: 16px;
+    font-weight: 900;
+    font-size: 25px;
+}
+.card-text{
+    color: #C0AFD3;
+}
+.current{
+    margin-top: 10%
+}
+.past{
+    margin-top: 5%
+}
+.current-date h3{
+    font-weight: 800;
+    color: #C0AFD3;
+}
+.current-date p{
+    color: #C0AFD3;
+}
+
+.caterings ul li{
+    list-style: disc;
+    font-size: 18px;
+}
+
+.caterings{
+    margin-top: 10%;
+}
+.caterings h2{
+     color: #C0AFD3;
+     font-weight: 900;
+     font-size: 60px;
+}
+
+.deliver img{
+    border: 10px solid #C0AFD3;
+}
+
+.deliver-content{
+    margin-top: 10%;
+}
+
+@media only screen and (max-width:800px){
+    footer .logo{
+        display: none;
+    }
+    footer{
+        text-align: center;
+    }
+    footer li{
+        list-style: none;
+        margin-right: 0;
+    }
+
+    .empty{
+        display: none;
+    }
+
+    .section6 p{
+        font-size: 15px;
+    }
+    .insta img{
+        width: 20%;
+    }
+    .insta .btn3{
+        background-color: #C0AFD3;
+        color: #ffffff;
+        border: 2px solid #C0AFD3;
+        border-radius: 0;
+        width: 25%;
+    }
+    .section3 p {
+        width: 100%;
+        font-size: 20px;
+    }
+    .about-sect{
+        text-align: center;
+    }
+    .sect3{
+        margin-top: 10%;
+    }
+   
+    .sect3 .about-sect{
+        order: 2;
+    }
+
+    .sect3 img{
+        order: 1;
+        width: 100% !important;
+    }
+
+    .btn1 {
+        background-color: #C0AFD3;
+        color: #ffffff;
+        border: 2px solid #C0AFD3;
+        margin-left: 0;
+    }
+    .section4 h1 {
+        font-weight: 900;
+        font-family: 'Raleway', sans-serif;
+        font-size: 40px;
+        color: #C0AFD3;
+    }
+    .contact {
+        background-attachment: fixed;
+        background-image: url(../images/bg2.webp);
+        background-repeat: no-repeat;
+        height: 150px;
+        background-size: auto;
+        background-position-y: 4%;
+        z-index: 2;
+    }
+    .contact h1 {
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .contact-det h1 {
+        display: none;
+    }
+    .our-store{
+        text-align: center;
+    }
+    .contact-footer {
+        margin-top: 10%;
+    }
+    .our-store p {
+        color: #C0AFD3;
+        font-size: 18px;
+        width: 91%;
+        margin: auto;
+       
+    }
+    .faq h1 {
+        color: #C0AFD3;
+        font-weight: 900;
+        font-size: 30px;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .caro-info h1, p{
+        
+        text-align: center;
+    }
+    .card {
+        width: 20rem;
+        /* margin-top: 114px; */
+        margin: auto;
+        margin-top: 30%;
+    }
+    .caterings h2{
+        color: #C0AFD3;
+        font-weight: 900;
+        font-size: 40px;
+        text-align: center;
+   }
+   .caro{
+    text-align: center;
+   }
+   
+}
