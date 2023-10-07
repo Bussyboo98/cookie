@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login-style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope&family=Raleway:wght@800&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope&family=Raleway:wght@100&family=Roboto+Condensed&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar  navbar-expand-lg bg-body-light p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./images/Caroline's Cookie Purple Logo.webp" class="img-fluid" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end me-5 flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Purchase
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="" href="./purchase/purchase.html">PURCHASE</a></li>
+                                <li><a class="" href="./purchase/store.html">IN-STORE</a></li>
+                                <li><a class="" href="./purchase/cake.html">COOKIE CAKE</a></li>
+                                <li><a class="" href="./purchase/catering.html">CATERING</a></li>
+                                <li><a class="" href="./purchase/delivery.html">DELIVERY</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Flavors
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="" href="./flavor/current.html">CURRENT FLAVORS</a></li>
+                                <li><a class="" href="./flavor/past-flav.html">PAST FLAVORS</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./faq.html">Faq</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href=""><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./login.html">Login</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="contact">
+        <h1 class="text-white text-center pt-5" data-aos="fade-up" data-aos-duration="3000">CART</h1>
+    </div>
+    <section class="h-100 h-custom py-5">
+        <div class="container h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body p-4">
+
+                            <div class="row">
+
+                                <div class="col-lg-7">
+                                    <h5 class="mb-3"><a href="./purchase/purchase.html" class="text-body"><i
+                                                class="fas fa-long-arrow-alt-left me-2"></i>Continue shopping</a></h5>
+                                    <hr>
+
+                                    <div class="d-flex justify-content-between align-items-center mb-4">
+                                        <div>
+                                            <p class="mb-1">Shopping cart</p>
+                                            <p class="mb-0">You have 4 items in your cart</p>
+                                        </div>
+                                        <div>
+                                            <p class="mb-0"><span class="text-muted">Sort by:</span> <a href="#!"
+                                                    class="text-body">price <i class="fas fa-angle-down mt-1"></i></a>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card mb-3">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="d-flex flex-row align-items-center">
+                                                    <div>
+                                                        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img1.webp"
+                                                            class="img-fluid rounded-3" alt="Shopping item"
+                                                            style="width: 65px;">
+                                                    </div>
+                                                    <div class="ms-3">
+                                                        <h5>Iphone 11 pro</h5>
+                                                        <p class="small mb-0">256GB, Navy Blue</p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-row align-items-center">
+                                                    <div style="width: 50px;">
+                                                        <h5 class="fw-normal mb-0">2</h5>
+                                                    </div>
+                                                    <div style="width: 80px;">
+                                                        <h5 class="mb-0">$900</h5>
+                                                    </div>
+                                                    <a href="#!" style="color: #cecece;"><i
+                                                            class="fas fa-trash-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card mb-3">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="d-flex flex-row align-items-center">
+                                                    <div>
+                                                        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img2.webp"
+                                                            class="img-fluid rounded-3" alt="Shopping item"
+                                                            style="width: 65px;">
+                                                    </div>
+                                                    <div class="ms-3">
+                                                        <h5>Samsung galaxy Note 10 </h5>
+                                                        <p class="small mb-0">256GB, Navy Blue</p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-row align-items-center">
+                                                    <div style="width: 50px;">
+                                                        <h5 class="fw-normal mb-0">2</h5>
+                                                    </div>
+                                                    <div style="width: 80px;">
+                                                        <h5 class="mb-0">$900</h5>
+                                                    </div>
+                                                    <a href="#!" style="color: #cecece;"><i
+                                                            class="fas fa-trash-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card mb-3">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="d-flex flex-row align-items-center">
+                                                    <div>
+                                                        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img3.webp"
+                                                            class="img-fluid rounded-3" alt="Shopping item"
+                                                            style="width: 65px;">
+                                                    </div>
+                                                    <div class="ms-3">
+                                                        <h5>Canon EOS M50</h5>
+                                                        <p class="small mb-0">Onyx Black</p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-row align-items-center">
+                                                    <div style="width: 50px;">
+                                                        <h5 class="fw-normal mb-0">1</h5>
+                                                    </div>
+                                                    <div style="width: 80px;">
+                                                        <h5 class="mb-0">$1199</h5>
+                                                    </div>
+                                                    <a href="#!" style="color: #cecece;"><i
+                                                            class="fas fa-trash-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card mb-3 mb-lg-0">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="d-flex flex-row align-items-center">
+                                                    <div>
+                                                        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img4.webp"
+                                                            class="img-fluid rounded-3" alt="Shopping item"
+                                                            style="width: 65px;">
+                                                    </div>
+                                                    <div class="ms-3">
+                                                        <h5>MacBook Pro</h5>
+                                                        <p class="small mb-0">1TB, Graphite</p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-row align-items-center">
+                                                    <div style="width: 50px;">
+                                                        <h5 class="fw-normal mb-0">1</h5>
+                                                    </div>
+                                                    <div style="width: 80px;">
+                                                        <h5 class="mb-0">$1799</h5>
+                                                    </div>
+                                                    <a href="#!" style="color: #cecece;"><i
+                                                            class="fas fa-trash-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-5">
+
+                                    <div class="card bg-primary text-white rounded-3">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-center mb-4">
+                                                <h5 class="mb-0">Card details</h5>
+                                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-6.webp"
+                                                    class="img-fluid rounded-3" style="width: 45px;" alt="Avatar">
+                                            </div>
+
+                                            <p class="small mb-2">Card type</p>
+                                            <a href="#!" type="submit" class="text-white"><i
+                                                    class="fab fa-cc-mastercard fa-2x me-2"></i></a>
+                                            <a href="#!" type="submit" class="text-white"><i
+                                                    class="fab fa-cc-visa fa-2x me-2"></i></a>
+                                            <a href="#!" type="submit" class="text-white"><i
+                                                    class="fab fa-cc-amex fa-2x me-2"></i></a>
+                                            <a href="#!" type="submit" class="text-white"><i
+                                                    class="fab fa-cc-paypal fa-2x"></i></a>
+
+                                            <form class="mt-4">
+                                                <div class="form-outline form-white mb-4">
+                                                    <input type="text" id="typeName"
+                                                        class="form-control form-control-lg" siez="17"
+                                                        placeholder="Cardholder's Name" />
+                                                    <label class="form-label" for="typeName">Cardholder's Name</label>
+                                                </div>
+
+                                                <div class="form-outline form-white mb-4">
+                                                    <input type="text" id="typeText"
+                                                        class="form-control form-control-lg" siez="17"
+                                                        placeholder="1234 5678 9012 3457" minlength="19"
+                                                        maxlength="19" />
+                                                    <label class="form-label" for="typeText">Card Number</label>
+                                                </div>
+
+                                                <div class="row mb-4">
+                                                    <div class="col-md-6">
+                                                        <div class="form-outline form-white">
+                                                            <input type="text" id="typeExp"
+                                                                class="form-control form-control-lg"
+                                                                placeholder="MM/YYYY" size="7" id="exp" minlength="7"
+                                                                maxlength="7" />
+                                                            <label class="form-label" for="typeExp">Expiration</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-outline form-white">
+                                                            <input type="password" id="typeText"
+                                                                class="form-control form-control-lg"
+                                                                placeholder="&#9679;&#9679;&#9679;" size="1"
+                                                                minlength="3" maxlength="3" />
+                                                            <label class="form-label" for="typeText">Cvv</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </form>
+
+                                            <hr class="my-4">
+
+                                            <div class="d-flex justify-content-between">
+                                                <p class="mb-2">Subtotal</p>
+                                                <p class="mb-2">$4798.00</p>
+                                            </div>
+
+                                            <div class="d-flex justify-content-between">
+                                                <p class="mb-2">Shipping</p>
+                                                <p class="mb-2">$20.00</p>
+                                            </div>
+
+                                            <div class="d-flex justify-content-between mb-4">
+                                                <p class="mb-2">Total(Incl. taxes)</p>
+                                                <p class="mb-2">$4818.00</p>
+                                            </div>
+
+                                            <button type="button" class="btn btn-light text-dark btn-block btn-lg">
+                                                <div class="d-flex justify-content-between">
+                                                    <span>$4818.00</span>
+                                                    <span>Checkout <i
+                                                            class="fas fa-long-arrow-alt-right ms-2"></i></span>
+                                                </div>
+                                            </button>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="contact-footer">
+        <div class="container" data-aos="fade-up" data-aos-duration="3000">
+            <div class="row">
+                <div class="col-md-3 mt-5 logo">
+                    <img src="./images/Caroline's Cookies White Logo.webp" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3 mt-5 text-white hour">
+                    <h2>HOURS</h2>
+                    <li>Mon: Closed</li>
+                    <li>Tues: Closed</li>
+                    <li>Wed: 11am - 6pm</li>
+                    <li>Thur: 11am - 6pm</li>
+                    <li>Fri: 11am - 6pm</li>
+                    <li>Sat: 11am - 4pm</li>
+                    <li>Sun: Closed</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mt-5 store">
+                    <h2>STORE</h2>
+                    <p>
+                        1921 Kaliste Saloom
+                        Suite 124
+                        Lafayette, LA 70508
+                    </p>
+                </div>
+                <div class="col-md-3 mt-5 icon">
+                    <h2>FOLLOW</h2>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook me-2"></i>
+
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

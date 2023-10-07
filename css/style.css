@@ -99,6 +99,7 @@ body{
     background-color: #C0AFD3;
     color: #ffffff;
     border: 2px solid #C0AFD3;
+    width: 20%;
 }
 
 .btn:hover{
@@ -160,7 +161,7 @@ body{
 }
 
 .cookie-bax{
-    background-image: url(./images/bg1.webp);
+    background-image: url(../images/bg1.webp);
     height: 200px;
     background-size: cover;
     margin-top: 5%;
@@ -180,6 +181,8 @@ body{
 }
 .section6 input{
     padding: 2%;
+    color: #C0AFD3;
+    font-weight: 600;
 }
 .btn2{
    border-radius: 0;
@@ -326,7 +329,7 @@ nav{
 }
 
 
-.card{
+.cards{
     padding: 0;
     border: 5px solid #C0AFD3;
     margin-top: 10%;
@@ -345,7 +348,7 @@ nav{
 
 }
 
-.card:hover{
+.cards:hover{
     transform: scale(1.1); 
     cursor: pointer;
 }
@@ -405,6 +408,8 @@ nav{
     margin-top: 10%;
 }
 
+
+
 @media only screen and (max-width:800px){
     footer .logo{
         display: none;
@@ -432,7 +437,7 @@ nav{
         color: #ffffff;
         border: 2px solid #C0AFD3;
         border-radius: 0;
-        width: 25%;
+        width: 40%;
     }
     .section3 p {
         width: 100%;
@@ -508,7 +513,7 @@ nav{
         
         text-align: center;
     }
-    .card {
+    .cards {
         width: 20rem;
         /* margin-top: 114px; */
         margin: auto;
@@ -528,7 +533,16 @@ nav{
     width: 100%;
    }
    
+   .section6 form {
+    width: 100%;
+    border: 3px solid #C0AFD3;
+}
 
-
+.btn {
+    background-color: #C0AFD3;
+    color: #ffffff;
+    border: 2px solid #C0AFD3;
+    width: 40%;
+}
    
 }
