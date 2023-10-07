@@ -547,5 +547,9 @@ nav{
     border: 2px solid #C0AFD3;
     width: 40%;
 }
+
+.cart{
+    flex-direction: column;
+}
    
 }
